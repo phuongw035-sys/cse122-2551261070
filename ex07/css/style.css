@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.khung-km {
+  width: 100%;
+  max-width: 860px;
+  background-color: #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+header {
+  background-color: #c8102e;
+  color: #ffffff;
+  padding: 14px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.dai-phu {
+  background-color: #fbe3e8;
+  color: #c8102e;
+  font-weight: 700;
+  padding: 7px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.noi-dung-2-cot {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  gap: 20px;
+  padding: 24px;
+}
+
+.vach-ngan {
+  background-color: #dddddd;
+  width: 1px;
+}
+
+.anh-sp {
+  float: right;
+  width: 145px;
+  margin: 0 0 10px 12px;
+}
+
+.tieu-de-muc {
+  color: #c8102e;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+.cot-trai h2:not(:first-of-type) {
+  margin-top: 16px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.55;
+  font-size: 14px;
+  color: #222222;
+}
+
+li {
+  margin-bottom: 6px;
+}
