@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+}
+
+.khung-trang {
+  width: 100%;
+  max-width: 760px;
+  padding: 20px;
+}
+
+.khung-trang h1 {
+  color: #c2185b;
+  font-size: 26px;
+  text-align: center;
+  margin: 0 0 22px 0;
+}
+
+.bo-cuc-2-cot {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.cot-trai img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nhan-muc {
+  background-color: #ffc0cb;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 0 0 8px 0;
+}
+
+.ds-vuong {
+  list-style-type: square;
+  line-height: 1.9;
+  margin: 0 0 18px 0;
+  padding-left: 24px;
+}
+
+.ds-tron {
+  list-style-type: circle;
+  line-height: 1.9;
+  margin: 0 0 20px 0;
+  padding-left: 24px;
+}
+
+.ban-quyen {
+  color: #0000ee;
+  text-decoration: underline;
+  text-align: center;
+  margin: 16px 0 0 0;
+  font-size: 15px;
+}
