@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.dau-trang {
+  padding: 16px 24px;
+  border-bottom: 2px solid #1668c1;
+}
+
+.dau-trang h1 {
+  margin: 0;
+  color: #1668c1;
+  font-size: 24px;
+}
+
+.bo-cuc-chinh {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  min-height: calc(100vh - 64px);
+}
+
+.menu-trai {
+  background-color: #eef4fb;
+  padding: 18px 16px;
+  border-right: 1px solid #d5e2f2;
+}
+
+.tieu-de-menu {
+  font-size: 12px;
+  font-weight: bold;
+  color: #666666;
+  margin-bottom: 12px;
+}
+
+.menu-trai ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-trai li {
+  margin-bottom: 10px;
+}
+
+.menu-trai a {
+  text-decoration: none;
+  color: #1668c1;
+  font-size: 14px;
+}
+
+.menu-trai a:hover {
+  text-decoration: underline;
+}
+
+.noi-dung-phai {
+  padding: 20px 28px;
+}
+
+.chuyen-muc {
+  margin-bottom: 28px;
+}
+
+.thanh-chuyen-muc {
+  background-color: #1668c1;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 4px;
+  margin: 0 0 14px 0;
+}
+
+.bai-viet {
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  gap: 20px;
+  align-items: start;
+  padding: 12px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.bai-viet h3 {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+}
+
+.bai-viet h3 a {
+  color: #1668c1;
+  text-decoration: none;
+}
+
+.bai-viet h3 a:hover {
+  text-decoration: underline;
+}
+
+.bai-viet p {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.bai-viet img {
+  width: 140px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+.ve-dau-trang {
+  text-align: right;
+  margin-top: 8px;
+}
+
+.ve-dau-trang a {
+  font-size: 13px;
+  color: #1668c1;
+  text-decoration: none;
+}
+
+.ve-dau-trang a:hover {
+  text-decoration: underline;
+}
