@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.the-form {
+  width: 100%;
+  max-width: 660px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #0f766e;
+  columns: #ffffff;
+  padding: 20px 26px;
+}
+
+header h1 {
+  margin: 0 0 6px 0;
+  font-size: 22px;
+}
+
+header p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccfbf1;
+}
+
+.noi-dung-form {
+  padding: 24px 26px;
+}
+
+.dong-2-cot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.nhom-nhap {
+  margin-bottom: 16px;
+}
+
+.nhom-nhap label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 6px;
+}
+
+.nhom-nhap input,
+.nhom-nhap select,
+.nhom-nhap textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #0f172a;
+  background-color: #ffffff;
+}
+
+.nhom-nhap input:focus,
+.nhom-nhap select:focus,
+.nhom-nhap textarea:focus {
+  outline: none;
+  border-color: #0f766e;
+}
+
+.hang-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #0f766e;
+  cursor: pointer;
+}
+
+.hang-nut {
+  display: flex;
+  gap: 12px;
+}
+
+.hang-nut button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.nut-gui {
+  background-color: #0f766e;
+  color: #ffffff;
+}
+
+.nut-gui:hover {
+  background-color: #e2e8f0;
+  color: #334155;
+}
+
+.nut-nhap-lai {
+  background-color: #e2e8f0;
+  color: #334155;
+}
+
+.nut-nhap-lai:hover {
+  background-color: #cbd5e1;
+}
